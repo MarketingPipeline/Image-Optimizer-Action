@@ -26,6 +26,21 @@ A Github Action to optimize images in a repo
 ## Example and usage
 
 
+To optimize a single image file:
+
+       filename: filename.jpg
+       
+       
+To optimize all image files in current working directory and all of its subdirectories:
+
+directory: "/example/"
+recursion: true
+
+To optimize all image files in current working directory, without recursion:
+
+directory: "/example/"
+recursion: false
+
 <details>
 <summary>How to use this action</summary>
 <br><br>     
