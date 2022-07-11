@@ -26,24 +26,73 @@ A Github Action to optimize images in a repo
 ## Example and usage
 
 
-To optimize a single image file:
-
-       filename: filename.jpg
-       
-       
-To optimize all image files in current working directory and all of its subdirectories:
-
-directory: "/example/"
-recursion: true
-
-To optimize all image files in current working directory, without recursion:
-
-directory: "/example/"
-recursion: false
-
 <details>
 <summary>How to use this action</summary>
 <br><br>     
+
+<b><i>Note:</b></i> By default all supported image file types in your repo will be optimized. (SVG images are NOT supported)
+
+<br>
+
+
+<details>
+<summary> 
+To optimize a single image file:
+</summary>
+
+<br>
+
+
+       - uses: actions/checkout@v2
+       - uses: MarketingPipeline/Image-Optimizer-Action@main
+       with:
+           filename: filename.jpg
+       
+
+
+</details>
+
+<br><br>
+
+<details>
+<summary>       
+To optimize all image files in current working directory and all of its subdirectories:
+</summary>
+
+<br>
+
+       - uses: actions/checkout@v2
+       - uses: MarketingPipeline/Image-Optimizer-Action@main
+       with:
+           filename: /example_folder_path/
+           recursion: true
+
+
+
+
+</details>
+
+<br><br>
+
+<details>
+<summary>
+To optimize all image files in current working directory, without recursion:
+</summary>
+
+<br>
+
+       - uses: actions/checkout@v2
+       - uses: MarketingPipeline/Image-Optimizer-Action@main
+       with:
+           filename: /example_folder_path/
+           recursion: true
+
+
+
+</details>
+
+<br><br>
+
 
 
 <details>
@@ -74,8 +123,6 @@ Example [workflow file](.github/workflows/example_workflow.yaml)
 
 </details>
 
-<b><i>Note:</b></i> All supported image file types in your repo will be optimized. (SVG images are NOT supported)
-	
 
 
 <br><br>
