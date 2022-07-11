@@ -30,9 +30,6 @@ A Github Action to optimize images in a repo
 <summary>How to use this action</summary>
 <br><br>     
 
-<b><i>Note:</b></i> By DEFAULT all supported image file types in your repo will be optimized. (SVG images are NOT supported)
-
-<br>
 
 
 <details>
