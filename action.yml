@@ -2,10 +2,25 @@ name: 'Image-Optimizer-Action'
 description: 'A Github action to optimize images in a repo'
 author: 'github.com/MarketingPipeline'
 
+
+inputs:
+  filename:
+    description: 'Folder or image path to optimize'
+    default: ''
+    required: false
+  recursion:
+    description: 'Optimize all image files in current working directory and all of its subdirectories'
+    default: ''
+    required: false
+
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
-
+  args:
+    - ${{ inputs.filename }}
+    - ${{ inputs.recursion }}
+    
 branding:
   icon: 'activity'
   color: 'white'
