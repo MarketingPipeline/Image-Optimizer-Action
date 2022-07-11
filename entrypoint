@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#####################################################
+# Image Optimzer Action
+# Created by github.com/MarketingPipeline
+#####################################################
+
+optimize-images ./
+
+   
