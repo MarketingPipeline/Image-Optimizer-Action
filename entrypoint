@@ -5,15 +5,6 @@
 # Created by github.com/MarketingPipeline
 #####################################################
 
-#!/bin/bash
-
-#####################################################
-#  Download Specific folders from Github using SVN
-#  
-#  Orginal Author: Declan Cook
-#  Modified by: MarketingPip from github.com/MarketingPipeline
-#  Licence: MIT
-#####################################################
 FILEPATH=$1
 RECURSION=$2
 
