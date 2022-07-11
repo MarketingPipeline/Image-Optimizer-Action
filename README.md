@@ -42,7 +42,6 @@ To optimize a single image file:
 <br>
 
 
-       - uses: actions/checkout@v2
        - uses: MarketingPipeline/Image-Optimizer-Action@main
          with:
            filename: filename.jpg
@@ -60,7 +59,6 @@ To optimize all image files in a directory and all of its subdirectories:
 
 <br>
 
-       - uses: actions/checkout@v2
        - uses: MarketingPipeline/Image-Optimizer-Action@main
          with:
            filename: /example_folder_path/
@@ -80,7 +78,6 @@ To optimize all image files in a directory, without recursion:
 
 <br>
 
-       - uses: actions/checkout@v2
        - uses: MarketingPipeline/Image-Optimizer-Action@main
          with:
            filename: /example_folder_path/
