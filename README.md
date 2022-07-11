@@ -27,6 +27,33 @@ A Github Action to optimize images in a repo
 
 
 <details>
+<summary> View Example Of Image Compression Results </summary>
+
+<br>
+
+         ✅  [OPTIMIZED] ./image_1.png                                                   
+             PNG/RGBA: 516.6 KB  ->  PNG/RGBA: 490.8 KB 🔻 5.0%
+         ✅  [OPTIMIZED] ./image_2.png                                               
+             PNG/RGBA: 771.8 KB  ->  PNG/RGBA: 741.5 KB 🔻 3.9%
+         ✅  [OPTIMIZED] ./image_3.png                                                    
+             PNG/RGBA: 737.3 KB  ->  PNG/RGBA: 707.8 KB 🔻 4.0%
+         ✅  [OPTIMIZED] ./image_4.png                                                    
+             PNG/RGBA: 31.4 KB  ->  PNG/RGBA: 30.7 KB 🔻 2.3%
+         ✅  [OPTIMIZED] ./image_5.png                                        
+             PNG/RGBA: 203.9 KB  ->  PNG/RGBA: 200.0 KB 🔻 1.9%
+         ✅  [OPTIMIZED] ./image_6.png                                          
+             PNG/RGBA: 534.2 KB  ->  PNG/RGBA: 514.5 KB 🔻 3.7%
+             ----------------------------------------
+             Processed 6 files (2.7 MB) in 4.3s (1.4 f/s).
+             Optimized 6 files.
+             Average savings: 18.3 KB per optimized file
+             Total space saved: 109.9 KB / 3.9%
+
+
+</details>
+
+
+<details>
 <summary>How to use this action</summary>
 <br><br>     
 
