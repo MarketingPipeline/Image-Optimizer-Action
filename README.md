@@ -30,7 +30,7 @@ A Github Action to optimize images in a repo
 <summary>How to use this action</summary>
 <br><br>     
 
-<b><i>Note:</b></i> By default all supported image file types in your repo will be optimized. (SVG images are NOT supported)
+<b><i>Note:</b></i> By DEFAULT all supported image file types in your repo will be optimized. (SVG images are NOT supported)
 
 <br>
 
@@ -45,7 +45,7 @@ To optimize a single image file:
 
        - uses: actions/checkout@v2
        - uses: MarketingPipeline/Image-Optimizer-Action@main
-       with:
+         with:
            filename: filename.jpg
        
 
@@ -56,14 +56,14 @@ To optimize a single image file:
 
 <details>
 <summary>       
-To optimize all image files in current working directory and all of its subdirectories:
+To optimize all image files in a directory and all of its subdirectories:
 </summary>
 
 <br>
 
        - uses: actions/checkout@v2
        - uses: MarketingPipeline/Image-Optimizer-Action@main
-       with:
+         with:
            filename: /example_folder_path/
            recursion: true
 
@@ -76,16 +76,15 @@ To optimize all image files in current working directory and all of its subdirec
 
 <details>
 <summary>
-To optimize all image files in current working directory, without recursion:
+To optimize all image files in a directory, without recursion:
 </summary>
 
 <br>
 
        - uses: actions/checkout@v2
        - uses: MarketingPipeline/Image-Optimizer-Action@main
-       with:
+         with:
            filename: /example_folder_path/
-           recursion: true
 
 
 
@@ -96,7 +95,7 @@ To optimize all image files in current working directory, without recursion:
 
 
 <details>
-<summary>Workflow Example(s) / Usage </summary>
+<summary>Workflow Example(s)</summary>
 
 <br><br>
 
