@@ -1,0 +1,11 @@
+name: 'Image-Optimizer-Action'
+description: 'A Github action to optimize images in a repo'
+author: 'github.com/MarketingPipeline'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'activity'
+  color: 'white'
