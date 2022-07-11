@@ -30,7 +30,7 @@ fi
 
 ### Overwrite files
 
-if [ -z "$RECURSION"]
+if [ -z "$RECURSION" ]
 then
       echo "\RECURSION option was not chosen, optimizing all image files in current working directory, without recursion"
       RECURSION="-nr"
