@@ -1,7 +1,7 @@
 # Image-Optimizer-Action
 
 <p align="center">
-  <img height="400" src="https://capsule-render.vercel.app/api?type=waving&color=03a9f4&height=300&section=header&text=Image Optimizer Action&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Created by github.com/MarketingPipeline &descAlignY=51&descAlign=50" />
+  <img height="400" src="https://capsule-render.vercel.app/api?type=waving&color=03a9f4&height=300&section=header&text=Image%20Optimizer%20Action&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Created%20by%20github.com/MarketingPipeline%20&descAlignY=51&descAlign=50" />
 </p>
 <div align="center">
 A Github Action to optimize  to optimize / compress images
