@@ -69,7 +69,7 @@ To optimize a single image file:
 <br>
 
 
-       - uses: MarketingPipeline/Image-Optimizer-Action@main
+       - uses: MarketingPipeline/Image-Optimizer-Action@latest
          with:
            filename: filename.jpg
        
@@ -86,7 +86,7 @@ To optimize all image files in a directory and all of its subdirectories:
 
 <br>
 
-       - uses: MarketingPipeline/Image-Optimizer-Action@main
+       - uses: MarketingPipeline/Image-Optimizer-Action@latest
          with:
            filename: /example_folder_path/
            recursion: true
@@ -105,7 +105,7 @@ To optimize all image files in a directory, without recursion:
 
 <br>
 
-       - uses: MarketingPipeline/Image-Optimizer-Action@main
+       - uses: MarketingPipeline/Image-Optimizer-Action@latest
          with:
            filename: /example_folder_path/
 
@@ -127,7 +127,7 @@ To optimize all image files in a directory, without recursion:
 <br><br>
 
     - uses: actions/checkout@v2
-    - uses: MarketingPipeline/Image-Optimizer-Action@main
+    - uses: MarketingPipeline/Image-Optimizer-Action@latest
  
     - name: Commit and Push Optimized Images
       run: |
